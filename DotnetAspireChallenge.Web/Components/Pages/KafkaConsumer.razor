@@ -1,0 +1,40 @@
+﻿@page "/kafka"
+@attribute [StreamRendering(true)]
+@attribute [OutputCache(Duration = 5)]
+@using Confluent.Kafka
+<h3>KafkaConsumer</h3>
+
+@inject KafkaConsumeMessageClient kafaConsumeMessageClient
+<PageTitle>Kafka Consumed Message</PageTitle>
+
+<h1>Kafka</h1>
+
+<p>This component demonstrates showing data loaded from a backend API service.</p>
+
+@if (consumedMessage == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Topic</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@consumedMessage.Topic</td>
+                <td>@consumedMessage.Value</td>
+            </tr>
+
+        </tbody>
+    </table>
+}
+@code {
+    private ConsumeResult<string, string>? consumedMessage;
+
+    protected override async Task OnInitializedAsync() => consumedMessage = kafaConsumeMessageClient.GetKafkaMessage();
+}

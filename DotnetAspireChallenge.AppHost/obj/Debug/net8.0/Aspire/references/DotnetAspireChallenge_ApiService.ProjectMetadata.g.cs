@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class DotnetAspireChallenge_ApiService : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """D:\DotnetAspireChallenge\DotnetAspireChallenge\DotnetAspireChallenge.ApiService\DotnetAspireChallenge.ApiService.csproj""";
+    public string ProjectPath => """D:\DotnetAspireChallenge\DotnetAspireChallenge.ApiService\DotnetAspireChallenge.ApiService.csproj""";
 }

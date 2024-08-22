@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eQVsB6LahFU=",
+  "dgSpecHash": "2MWDSUKdZNM=",
   "success": true,
-  "projectFilePath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
+  "projectFilePath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",

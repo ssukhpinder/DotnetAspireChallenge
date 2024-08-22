@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspire.Confluent.Kafka" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DotnetAspireChallenge.ServiceDefaults\DotnetAspireChallenge.ServiceDefaults.csproj" />
   </ItemGroup>
 

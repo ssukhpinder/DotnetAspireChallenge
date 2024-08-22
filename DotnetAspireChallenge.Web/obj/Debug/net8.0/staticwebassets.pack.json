@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetAspireChallenge.Web.bundle.scp.css",
+      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetAspireChallenge.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\DotnetAspireChallenge.Web.bundle.scp.css"
     },
     {
-      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\app.css",
+      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\favicon.png",
+      "Id": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

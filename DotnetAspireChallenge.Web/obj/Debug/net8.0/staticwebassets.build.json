@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LyJynRwBtuGXz48BddrX5ThBnwxCu6zESFlyNShI/nw=",
+  "Hash": "JcRu7xJ7554IZ8HEl8M0dL/CbjTZj9/+roiXUCNC9yA=",
   "Source": "DotnetAspireChallenge.Web",
   "BasePath": "_content/DotnetAspireChallenge.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DotnetAspireChallenge.Web\\wwwroot",
       "Source": "DotnetAspireChallenge.Web",
-      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
+      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
       "BasePath": "_content/DotnetAspireChallenge.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotnetAspireChallenge.Web.styles.css",
+      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotnetAspireChallenge.Web.styles.css",
       "SourceId": "DotnetAspireChallenge.Web",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DotnetAspireChallenge.Web",
       "RelativePath": "DotnetAspireChallenge.Web.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotnetAspireChallenge.Web.styles.css"
+      "OriginalItemSpec": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotnetAspireChallenge.Web.styles.css"
     },
     {
-      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetAspireChallenge.Web.bundle.scp.css",
+      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetAspireChallenge.Web.bundle.scp.css",
       "SourceId": "DotnetAspireChallenge.Web",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DotnetAspireChallenge.Web",
       "RelativePath": "DotnetAspireChallenge.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetAspireChallenge.Web.bundle.scp.css"
+      "OriginalItemSpec": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetAspireChallenge.Web.bundle.scp.css"
     },
     {
-      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\app.css",
+      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\app.css",
       "SourceId": "DotnetAspireChallenge.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
+      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
       "BasePath": "_content/DotnetAspireChallenge.Web",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "DotnetAspireChallenge.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
+      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
       "BasePath": "_content/DotnetAspireChallenge.Web",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "DotnetAspireChallenge.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
+      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
       "BasePath": "_content/DotnetAspireChallenge.Web",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\favicon.png",
+      "Identity": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\favicon.png",
       "SourceId": "DotnetAspireChallenge.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
+      "ContentRoot": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\wwwroot\\",
       "BasePath": "_content/DotnetAspireChallenge.Web",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

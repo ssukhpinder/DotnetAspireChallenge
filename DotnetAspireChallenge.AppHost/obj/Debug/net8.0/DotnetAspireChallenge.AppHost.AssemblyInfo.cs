@@ -18,13 +18,13 @@ using System.Reflection;
     "t\\")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Hosting.Orchestration.win-x64\\8.1.0\\tools\\ex" +
     "t\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Program Files\\dotnet\\packs\\Aspire.Dashboard.Sdk.win-x64\\8.1.0\\tools\\Aspire.Das" +
     "hboard.exe")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetAspireChallenge.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5696dbb4d7f5b69ff95cfb26266d3d1ff439b3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetAspireChallenge.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetAspireChallenge.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,3 +1,6 @@
+using Confluent.Kafka;
+using static Confluent.Kafka.ConfigPropertyNames;
+
 namespace DotnetAspireChallenge.Web;
 
 public class WeatherApiClient(HttpClient httpClient)
@@ -20,6 +23,19 @@ public class WeatherApiClient(HttpClient httpClient)
         }
 
         return forecasts?.ToArray() ?? [];
+    }
+}
+
+public class KafkaConsumeMessageClient(HttpClient httpClient, IConsumer<string, string> _consumer)
+{
+
+    public ConsumeResult<string, string>? GetKafkaMessage(CancellationToken cancellationToken = default)
+    {
+        ConsumeResult<string, string>? deliveryResult = null;
+        _consumer.Subscribe("messaging");
+        deliveryResult = _consumer.Consume(TimeSpan.FromSeconds(10));
+
+        return deliveryResult;
     }
 }
 

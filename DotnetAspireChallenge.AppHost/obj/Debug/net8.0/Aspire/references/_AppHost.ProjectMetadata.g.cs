@@ -8,5 +8,5 @@ namespace Projects;
 public class DotnetAspireChallenge_AppHost
 {
     private DotnetAspireChallenge_AppHost() { }
-    public static string ProjectPath => """D:\DotnetAspireChallenge\DotnetAspireChallenge\DotnetAspireChallenge.AppHost""";
+    public static string ProjectPath => """D:\DotnetAspireChallenge\DotnetAspireChallenge.AppHost""";
 }

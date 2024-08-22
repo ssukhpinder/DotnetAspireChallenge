@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetAspireChallenge.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5696dbb4d7f5b69ff95cfb26266d3d1ff439b3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetAspireChallenge.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetAspireChallenge.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

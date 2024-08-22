@@ -1,3 +1,4 @@
+using Confluent.Kafka;
 using DotnetAspireChallenge.Web;
 using DotnetAspireChallenge.Web.Components;
 
@@ -17,6 +18,19 @@ builder.Services.AddHttpClient<WeatherApiClient>(client =>
         // Learn more about service discovery scheme resolution at https://aka.ms/dotnet/sdschemes.
         client.BaseAddress = new("https+http://apiservice");
     });
+builder.Services.AddHttpClient<KafkaConsumeMessageClient>(client =>
+{
+    // This URL uses "https+http://" to indicate HTTPS is preferred over HTTP.
+    // Learn more about service discovery scheme resolution at https://aka.ms/dotnet/sdschemes.
+    client.BaseAddress = new("https+http://apiservice");
+});
+
+builder.AddKafkaConsumer<string, string>("messaging", options =>
+{
+    options.Config.GroupId = "my-consumer-group";
+    options.Config.AutoOffsetReset = AutoOffsetReset.Earliest;
+    options.Config.EnableAutoCommit = false;
+});
 
 var app = builder.Build();
 

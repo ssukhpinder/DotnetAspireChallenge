@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\DotnetAspireChallenge.Web.csproj": {}
+    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\DotnetAspireChallenge.Web.csproj": {}
   },
   "projects": {
-    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj": {
+    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
+        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
         "projectName": "DotnetAspireChallenge.ServiceDefaults",
-        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
+        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\obj\\",
+        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,14 +98,14 @@
         }
       }
     },
-    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\DotnetAspireChallenge.Web.csproj": {
+    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\DotnetAspireChallenge.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\DotnetAspireChallenge.Web.csproj",
+        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\DotnetAspireChallenge.Web.csproj",
         "projectName": "DotnetAspireChallenge.Web",
-        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\DotnetAspireChallenge.Web.csproj",
+        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\DotnetAspireChallenge.Web.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\",
+        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,8 +123,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj": {
-                "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj"
+              "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj": {
+                "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj"
               }
             }
           }
@@ -144,6 +144,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Aspire.Confluent.Kafka": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Aspire.StackExchange.Redis.OutputCaching": {
               "target": "Package",
               "version": "[8.1.0, )"

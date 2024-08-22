@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAspireChallenge.AppHost", "DotnetAspireChallenge.AppHost\DotnetAspireChallenge.AppHost.csproj", "{352162FD-1665-48EA-B95A-9D26A6F895B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetAspireChallenge.AppHost", "DotnetAspireChallenge.AppHost\DotnetAspireChallenge.AppHost.csproj", "{352162FD-1665-48EA-B95A-9D26A6F895B1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetAspireChallenge.ServiceDefaults", "DotnetAspireChallenge.ServiceDefaults\DotnetAspireChallenge.ServiceDefaults.csproj", "{3B8330FE-8F38-4884-BB79-6C9DBC91B321}"
 EndProject

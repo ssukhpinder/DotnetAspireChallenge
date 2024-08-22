@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\DotnetAspireChallenge.ApiService.csproj": {}
+    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\DotnetAspireChallenge.ApiService.csproj": {}
   },
   "projects": {
-    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\DotnetAspireChallenge.ApiService.csproj": {
+    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\DotnetAspireChallenge.ApiService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\DotnetAspireChallenge.ApiService.csproj",
+        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\DotnetAspireChallenge.ApiService.csproj",
         "projectName": "DotnetAspireChallenge.ApiService",
-        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\DotnetAspireChallenge.ApiService.csproj",
+        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\DotnetAspireChallenge.ApiService.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\obj\\",
+        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ApiService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj": {
-                "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj"
+              "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj": {
+                "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj"
               }
             }
           }
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.Confluent.Kafka": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -72,14 +78,14 @@
         }
       }
     },
-    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj": {
+    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
+        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
         "projectName": "DotnetAspireChallenge.ServiceDefaults",
-        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
+        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\obj\\",
+        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class DotnetAspireChallenge_Web : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """D:\DotnetAspireChallenge\DotnetAspireChallenge\DotnetAspireChallenge.Web\DotnetAspireChallenge.Web.csproj""";
+    public string ProjectPath => """D:\DotnetAspireChallenge\DotnetAspireChallenge.Web\DotnetAspireChallenge.Web.csproj""";
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\DotnetAspireChallenge.AppHost.csproj": {}
+    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\DotnetAspireChallenge.AppHost.csproj": {}
   },
   "projects": {
-    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\DotnetAspireChallenge.AppHost.csproj": {
+    "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\DotnetAspireChallenge.AppHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\DotnetAspireChallenge.AppHost.csproj",
+        "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\DotnetAspireChallenge.AppHost.csproj",
         "projectName": "DotnetAspireChallenge.AppHost",
-        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\DotnetAspireChallenge.AppHost.csproj",
+        "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\DotnetAspireChallenge.AppHost.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\obj\\",
+        "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.AppHost\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,7 +46,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Aspire.Confluent.Kafka": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Aspire.Hosting.AppHost": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Aspire.Hosting.Kafka": {
               "target": "Package",
               "version": "[8.1.0, )"
             },

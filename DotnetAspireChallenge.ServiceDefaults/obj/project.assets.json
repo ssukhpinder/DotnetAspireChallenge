@@ -2213,11 +2213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
+      "projectUniqueName": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
       "projectName": "DotnetAspireChallenge.ServiceDefaults",
-      "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
+      "projectPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\DotnetAspireChallenge.ServiceDefaults.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\obj\\",
+      "outputPath": "D:\\DotnetAspireChallenge\\DotnetAspireChallenge.ServiceDefaults\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
