@@ -12,9 +12,14 @@ var sql = builder.AddSqlServer("sql")
                  .AddDatabase("sqldata");
 
 
+var postgres = builder.AddPostgres("postgres")
+                      .AddDatabase("pgsqldata");
+
+
 var apiService = builder.AddProject<Projects.DotnetAspireChallenge_ApiService>("apiservice")
     .WithReference(messaging)
-    .WithReference(sql);
+    .WithReference(sql)
+    .WithReference(postgres);
 
 
 
