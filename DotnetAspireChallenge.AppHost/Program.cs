@@ -15,11 +15,15 @@ var sql = builder.AddSqlServer("sql")
 var postgres = builder.AddPostgres("postgres")
                       .AddDatabase("pgsqldata");
 
+var oracle = builder.AddOracle("oracle")
+                    .AddDatabase("oracledb");
+
 
 var apiService = builder.AddProject<Projects.DotnetAspireChallenge_ApiService>("apiservice")
     .WithReference(messaging)
     .WithReference(sql)
-    .WithReference(postgres);
+    .WithReference(postgres)
+    .WithReference(oracle);
 
 
 

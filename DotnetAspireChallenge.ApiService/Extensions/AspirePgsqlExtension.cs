@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DotnetAspireChallenge.ApiService.Models;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 namespace DotnetAspireChallenge.ApiService.Extensions
@@ -9,7 +10,7 @@ namespace DotnetAspireChallenge.ApiService.Extensions
         {
             app.MapGet("/pgsql", async (PgsqlDbContext pgsqlDbContext) =>
             {
-                await pgsqlDbContext.CustomersPgsql.AddAsync(new CustomerPgsql()
+                await pgsqlDbContext.CustomersPgsql.AddAsync(new Customer()
                 {
                     Title = "test@gmail.com",
                     Description = "sukh"
@@ -25,31 +26,21 @@ namespace DotnetAspireChallenge.ApiService.Extensions
                 }
             });
 
-            if (app.Environment.IsDevelopment())
-            {
-                using (var scope = app.Services.CreateScope())
-                {
-                    var context = scope.ServiceProvider.GetRequiredService<PgsqlDbContext>();
-                    context.Database.EnsureCreated();
-                }
-            }
+            //if (app.Environment.IsDevelopment())
+            //{
+            //    using (var scope = app.Services.CreateScope())
+            //    {
+            //        var context = scope.ServiceProvider.GetRequiredService<PgsqlDbContext>();
+            //        context.Database.EnsureCreated();
+            //    }
+            //}
         }
     }
 
 
     internal class PgsqlDbContext(DbContextOptions options) : DbContext(options)
     {
-        public DbSet<CustomerPgsql> CustomersPgsql => Set<CustomerPgsql>();
+        public DbSet<Customer> CustomersPgsql => Set<Customer>();
     }
 
-    public class CustomerPgsql
-    {
-        public int Id { get; set; }
-
-        [Required]
-        public string Title { get; set; } = string.Empty;
-
-        [Required]
-        public string Description { get; set; } = string.Empty;
-    }
 }

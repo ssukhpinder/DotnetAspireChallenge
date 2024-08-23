@@ -10,6 +10,7 @@
     <PackageReference Include="Aspire.Confluent.Kafka" Version="8.1.0" />
     <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="8.1.0" />
     <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.1.0" />
+    <PackageReference Include="Aspire.Oracle.EntityFrameworkCore" Version="8.1.0" />
   </ItemGroup>
 
   <ItemGroup>
