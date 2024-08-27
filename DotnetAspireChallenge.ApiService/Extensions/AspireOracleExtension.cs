@@ -10,7 +10,7 @@ namespace DotnetAspireChallenge.ApiService.Extensions
         {
             app.MapGet("/oracle", async (OracleDbContext oracleDbContext) =>
             {
-                await oracleDbContext.CustomersPgsql.AddAsync(new Customer()
+                await oracleDbContext.Customer.AddAsync(new Customer()
                 {
                     Title = "test@gmail.com",
                     Description = "sukh"
@@ -18,7 +18,7 @@ namespace DotnetAspireChallenge.ApiService.Extensions
                 int rows = await oracleDbContext.SaveChangesAsync();
                 if (rows > 0)
                 {
-                    return await oracleDbContext.CustomersPgsql.FirstOrDefaultAsync();
+                    return await oracleDbContext.Customer.FirstOrDefaultAsync();
                 }
                 else
                 {
@@ -40,7 +40,7 @@ namespace DotnetAspireChallenge.ApiService.Extensions
 
     internal class OracleDbContext(DbContextOptions options) : DbContext(options)
     {
-        public DbSet<Customer> CustomersPgsql => Set<Customer>();
+        public DbSet<Customer> Customer => Set<Customer>();
     }
 
 }
