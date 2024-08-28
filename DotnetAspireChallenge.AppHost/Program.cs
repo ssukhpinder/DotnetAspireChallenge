@@ -52,6 +52,15 @@ var queues = storage.AddQueues("queues");
 
 #endregion
 
+#region Day 9 Azure Key Vault
+//Uncomment below code and add relavant keyvault credentials and connection strings in the .json file
+
+//var secrets = builder.ExecutionContext.IsPublishMode
+//    ? builder.AddAzureKeyVault("secrets")
+//    : builder.AddConnectionString("secrets");
+
+#endregion
+
 if (builder.Environment.IsDevelopment())
 {
     storage.RunAsEmulator(c => c.WithImageTag("3.31.0"));
@@ -62,6 +71,7 @@ var apiService = builder.AddProject<Projects.DotnetAspireChallenge_ApiService>("
     .WithReference(sql)
     .WithReference(blobs)
     .WithReference(postgres)
+    //.WithReference(secrets)
     .WithReference(oracle);
 
 builder.AddProject<Projects.DotnetAspireChallenge_Web>("webfrontend")

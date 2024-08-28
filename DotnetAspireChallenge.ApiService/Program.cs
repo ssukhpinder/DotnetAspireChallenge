@@ -21,6 +21,11 @@ builder.AddAzureBlobClient("blobs");
 
 builder.AddAzureQueueClient("queues");
 
+//Enable one of them to start using Azure KeyVault
+//builder.Configuration.AddAzureKeyVaultSecrets("secrets");
+//builder.AddAzureKeyVaultClient("secrets");
+
+
 // Add service defaults & Aspire components.
 builder.AddServiceDefaults();
 
@@ -39,6 +44,7 @@ app.MapPgsqlAspireEndpoint();
 app.MapOracleAspireEndpoint();
 app.MapAzureBlobStorageEndpoint();
 app.MapAzureQueueEndpoint();
+app.MapKeyVaultEndpoint();
 
 app.MapDefaultEndpoints();
 
