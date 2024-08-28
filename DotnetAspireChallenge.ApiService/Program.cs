@@ -1,8 +1,10 @@
 
 
+using Azure.Storage.Blobs;
 using Confluent.Kafka;
 using DotnetAspireChallenge.ApiService.Extensions;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client.Extensions.Msal;
 using System.ComponentModel.DataAnnotations;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +17,8 @@ builder.AddNpgsqlDbContext<PgsqlDbContext>("pgsqldata");
 
 builder.AddOracleDatabaseDbContext<OracleDbContext>("oracledb");
 
+builder.AddAzureBlobClient("blobs");
+
 // Add service defaults & Aspire components.
 builder.AddServiceDefaults();
 
@@ -22,6 +26,7 @@ builder.AddServiceDefaults();
 builder.Services.AddProblemDetails();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 app.UseExceptionHandler();
@@ -32,6 +37,7 @@ app.MapAspireKafkaEndpoint();
 app.MapMssqlAspireEndpoint();
 app.MapPgsqlAspireEndpoint();
 app.MapOracleAspireEndpoint();
+app.MapAzureBlobStorageEndpoint();
 
 app.MapDefaultEndpoints();
 

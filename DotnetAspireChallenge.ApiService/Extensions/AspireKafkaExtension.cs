@@ -6,6 +6,7 @@ namespace DotnetAspireChallenge.ApiService.Extensions
     {
         public static void MapAspireKafkaEndpoint(this WebApplication app)
         {
+
             app.MapGet("/send", async (IProducer<string, string> services, string key, string value) =>
             {
                 try
