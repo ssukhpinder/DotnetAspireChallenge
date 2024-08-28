@@ -19,6 +19,8 @@ builder.AddOracleDatabaseDbContext<OracleDbContext>("oracledb");
 
 builder.AddAzureBlobClient("blobs");
 
+builder.AddAzureQueueClient("queues");
+
 // Add service defaults & Aspire components.
 builder.AddServiceDefaults();
 
@@ -27,10 +29,8 @@ builder.Services.AddProblemDetails();
 
 var app = builder.Build();
 
-
 // Configure the HTTP request pipeline.
 app.UseExceptionHandler();
-
 
 app.MapForecastEndpoint();
 app.MapAspireKafkaEndpoint();
@@ -38,11 +38,8 @@ app.MapMssqlAspireEndpoint();
 app.MapPgsqlAspireEndpoint();
 app.MapOracleAspireEndpoint();
 app.MapAzureBlobStorageEndpoint();
+app.MapAzureQueueEndpoint();
 
 app.MapDefaultEndpoints();
 
 app.Run();
-
-
-
-

@@ -44,13 +44,18 @@ var cache = builder.AddRedis("cache");
 var storage = builder.AddAzureStorage("storage");
 var blobs = storage.AddBlobs("blobs");
 
+#endregion
+
+#region Day 8 Azure Queue Storage
+
+var queues = storage.AddQueues("queues");
+
+#endregion
+
 if (builder.Environment.IsDevelopment())
 {
     storage.RunAsEmulator(c => c.WithImageTag("3.31.0"));
 }
-
-#endregion
-
 
 var apiService = builder.AddProject<Projects.DotnetAspireChallenge_ApiService>("apiservice")
     .WithReference(messaging)
@@ -58,8 +63,6 @@ var apiService = builder.AddProject<Projects.DotnetAspireChallenge_ApiService>("
     .WithReference(blobs)
     .WithReference(postgres)
     .WithReference(oracle);
-
-
 
 builder.AddProject<Projects.DotnetAspireChallenge_Web>("webfrontend")
     .WithExternalHttpEndpoints()
