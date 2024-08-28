@@ -61,6 +61,12 @@ var queues = storage.AddQueues("queues");
 
 #endregion
 
+#region Day 10 Azure Table Storage
+
+var tables = storage.AddTables("tables");
+
+#endregion
+
 if (builder.Environment.IsDevelopment())
 {
     storage.RunAsEmulator(c => c.WithImageTag("3.31.0"));

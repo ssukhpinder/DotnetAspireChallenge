@@ -25,6 +25,8 @@ builder.AddAzureQueueClient("queues");
 //builder.Configuration.AddAzureKeyVaultSecrets("secrets");
 //builder.AddAzureKeyVaultClient("secrets");
 
+builder.AddAzureTableClient("tables");
+
 
 // Add service defaults & Aspire components.
 builder.AddServiceDefaults();
@@ -44,7 +46,8 @@ app.MapPgsqlAspireEndpoint();
 app.MapOracleAspireEndpoint();
 app.MapAzureBlobStorageEndpoint();
 app.MapAzureQueueEndpoint();
-app.MapKeyVaultEndpoint();
+//app.MapKeyVaultEndpoint();
+app.MapAzureTableStorageEndpoint();
 
 app.MapDefaultEndpoints();
 
