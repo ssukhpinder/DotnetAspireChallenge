@@ -7,7 +7,7 @@ The repository contains sample sources from a 10-day challenge focused on master
 | S.No. | 10 Day .Net Aspire Challenge    | Tutorial |
 | -------- | -------- | ------- |
 | Day 01 | Introduction  | [Link](https://medium.com/c-sharp-progarmming/10-day-net-aspire-challenge-day-1-introduction-a756352099f5)   |
-| Day 02 | Add MSSQL Component |[Coming Soon]       |
+| Day 02 | Add MSSQL Component |[Link](https://medium.com/c-sharp-progarmming/10-day-net-aspire-challenge-day-2-add-mssql-component-831bacd617ed)       |
 | Day 03 | Add PGSQL Component | [Coming Soon]       |
 | Day 04 | Add Oracle Component |  [Coming Soon]       |
 | Day 05 | Apache Kafka | [Coming Soon]       |
