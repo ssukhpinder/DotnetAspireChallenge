@@ -11,7 +11,7 @@ The repository contains sample sources from a 10-day challenge focused on master
 | Day 03 | Add PGSQL Component | [Link](https://medium.com/c-sharp-progarmming/10-day-net-aspire-challenge-day-3-add-pgsql-component-b44b3519f665)       |
 | Day 04 | Add Oracle Component |  [Link](https://medium.com/c-sharp-progarmming/10-day-net-aspire-challenge-day-4-add-oracle-component-bcafb4de11fa)       |
 | Day 05 | Apache Kafka | [Link](https://medium.com/p/0dc3e9fb9717)       |
-| Day 06 | Redis Cache | [Coming Soon]       |
+| Day 06 | Redis Cache | [Link](https://medium.com/c-sharp-progarmming/10-day-net-aspire-challenge-day-6-r)       |
 | Day 07 | Azure Blob Storage | [Coming Soon]       |
 | Day 08 | Azure Queue Storage | [Coming Soon]       |
 | Day 09 | Azure Key Vault | [Coming Soon]       |
