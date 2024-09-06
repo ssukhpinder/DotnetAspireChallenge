@@ -15,7 +15,7 @@ The repository contains sample sources from a 10-day challenge focused on master
 | Day 07 | Azure Blob Storage | [Link](https://medium.com/c-sharp-programming/10-day-net-aspire-challenge-day-7-azure-blob-storage-a42765b2aecb)    |
 | Day 08 | Azure Queue Storage | [Link](https://medium.com/c-sharp-programming/10-day-net-aspire-challenge-day-8-azure-queue-storage-9d4d7f487cab)       |
 | Day 09 | Azure Key Vault | [Link](https://medium.com/p/672e166e446a)       |
-| Day 10 |  Azure Table Storage| [Coming Soon]       |
+| Day 10 |  Azure Table Storage| [Link](https://medium.com/c-sharp-programming/10-day-net-aspire-challenge-day-10-azure-table-storage-41cd477f56be)       |
 
 # Where to find me
 
